@@ -1,0 +1,13 @@
+export ("HImeanact",
+"HImeanactabs",
+"HImeanind",
+"HImeanindabs",
+"HIndiv",
+"HIndivabs",
+"later",
+"laterAFCM",
+"laterhist",
+"lvisAFCM",
+"visAFCM")
+
+import(ade4)
