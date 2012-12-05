@@ -8,7 +8,7 @@ later <- function (data, catch="Food", indiv="Indiv", hand="Hand", RightHand = "
       ifelse (is.null(Dat[[RightHand]]) == TRUE, HI<-(-Dat[[LeftHand]])/Dat[[LeftHand]], ifelse (is.null(Dat[[LeftHand]]) == TRUE, HI<-Dat[[RightHand]]/Dat[[RightHand]], HI<-(Dat[[RightHand]]-Dat[[LeftHand]])/(Dat[[RightHand]]+Dat[[LeftHand]]))) #Handedness index      
       Dat$HI<-HI #add HI to the table
       
-      ifelse (is.null(Dat[[RightHand]]) == TRUE, z<-(-Dat[[LeftHand]]/2)/sqrt(Dat[[LeftHand]]/4), ifelse (is.null(Dat$G) == TRUE, z<-(Dat[[RightHand]]-Dat[[RightHand]]/2)/sqrt(Dat[[RightHand]]/4), z<-(Dat[[RightHand]]-(Dat[[LeftHand]]+Dat[[RightHand]])/2)/sqrt((Dat[[LeftHand]]+Dat[[RightHand]])/4)))  #z-score
+      ifelse (is.null(Dat[[RightHand]]) == TRUE, z<-(-Dat[[LeftHand]]/2)/sqrt(Dat[[LeftHand]]/4), ifelse (is.null(Dat[[LeftHand]]) == TRUE, z<-(Dat[[RightHand]]-Dat[[RightHand]]/2)/sqrt(Dat[[RightHand]]/4), z<-(Dat[[RightHand]]-(Dat[[LeftHand]]+Dat[[RightHand]])/2)/sqrt((Dat[[LeftHand]]+Dat[[RightHand]])/4)))  #z-score
       Dat$z<-z #add z to the table
 	    
       p.val<-2*(pnorm(abs(z), lower.tail=FALSE))

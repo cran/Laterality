@@ -12,8 +12,8 @@ This package permits to calculate handedness index (HI) and z-score for each ind
 \tabular{ll}{
 Package: \tab Laterality\cr
 Type: \tab Package\cr
-Version: \tab 0.9\cr
-Date: \tab 2012-10-13\cr
+Version: \tab 0.9.1\cr
+Date: \tab 2012-12-05\cr
 License: \tab GPL (>=2.0)\cr
 LazyLoad: \tab yes\cr
 }

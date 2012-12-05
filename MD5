@@ -1,4 +1,4 @@
-b3055b539500ab653a367890ecf71c9e *DESCRIPTION
+5ce5fb4e2f6961f9beb9a876a28ef510 *DESCRIPTION
 c1e426d5565753855702d29e0739b9e5 *NAMESPACE
 b85f5863007b968a69abf59d0aa054f0 *R/HImeanact.R
 1b218e79d1b19d08a47d2e2c4cde1055 *R/HImeanactabs.R
@@ -6,7 +6,7 @@ b85f5863007b968a69abf59d0aa054f0 *R/HImeanact.R
 9cc39ddbf6401ca1d1494db2cce1eb5b *R/HImeanindabs.R
 1ac471ebef7358cdadd8ceb27e729662 *R/HIndiv.R
 d53449e1600f0777116895d8ecda53e0 *R/HIndivabs.R
-fc5e157415989f9a851779f84ab0eabf *R/later.R
+3e538954f33db76b24e126951f488b93 *R/later.R
 7a5938e6cc03b37dd00d46acf90f9cc3 *R/laterAFCM.R
 087d87b2805a72c3632de3ab99886d27 *R/laterhist.R
 5f9e783fb14cb80320de306a1a0251eb *R/lvisAFCM.R
@@ -19,7 +19,7 @@ d8e6baeb822fa8c28c54464a5e054241 *man/HImeanind.Rd
 750ed13ffdaa881dd9f87cfaad40db2d *man/HImeanindabs.Rd
 e05fc0f715f3009ff481a2d3e6175d98 *man/HIndiv.Rd
 e6ae0b7d8e77998935af2c589abc642d *man/HIndivabs.Rd
-2a678eba163663f7561b05044003314b *man/Laterality-package.Rd
+e794b4ff7d3fb68c17a8e3bddd183308 *man/Laterality-package.Rd
 bac700972c6c5298b581bf5c956a3352 *man/later.Rd
 6f929e77adc9580643f5aed9fecdd8d3 *man/laterAFCM.Rd
 1d091dc8386cec7b172dc0578b4cfec4 *man/lateradata.Rd
