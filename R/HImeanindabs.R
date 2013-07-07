@@ -20,7 +20,6 @@ HImeanindabs <- function (data, catch="Food", hand="Hand", indiv = "Indiv", Righ
   HImeanPerIndivabs[which(HImeanPerIndivabs<0)]<-HImeanPerIndivabs[which(HImeanPerIndivabs<0)]*-1 #absolute mean HI
     
   graph<-as.matrix(HImeanPerIndivabs)
-  x11()
   graphHImean<-barplot(graph, beside = beside, ylab=ylab, main=main, legend.text = legend.text, col=col, ylim=ylim, names.arg=names.arg)
 
   #Standard error bars

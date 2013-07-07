@@ -2,7 +2,6 @@ laterhist <- function (data, catch="Food", hand="Hand", col = 1:nlevels(data[[ha
                        , ylab = "Number of grips", main="Type of grips regarding to the performed task"
                        , legend.text = FALSE, beside = TRUE, legendlocation=TRUE, cex=1, pt.cex=2, pch=15)
 {
-  x11()
   graphlaterhist<-barplot(x<-table(data[[hand]],data[[catch]]), names.arg = levels(data[[catch]]), beside = beside, ylab=ylab, main=main, legend.text = legend.text, col=col, ylim=ylim, xpd=FALSE)
 
   #Legend

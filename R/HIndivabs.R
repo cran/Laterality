@@ -18,7 +18,6 @@ HIndivabs <- function (data, catch="Food", hand="Hand", indiv="Indiv", RightHand
   rownames(HIabsperIndiv)<-levels(data[[catch]])
   
   graph<-as.matrix(HIabsperIndiv)
-  x11()
   barplot(graph, beside = beside, ylab=ylab, main=main, cex.main=cex.main, legend.text = legend.text, col=col, ylim=ylim)
 
   # Vertical ligns plot

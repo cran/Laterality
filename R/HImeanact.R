@@ -20,7 +20,6 @@ HImeanact <- function (data, catch="Food", hand="Hand", indiv = "Indiv", RightHa
   HImeanPerAct<-rowMeans(HIperActivity, na.rm=TRUE) #mean HI
         
   graph<-as.matrix(HImeanPerAct)
-  x11()
   graphHImean<-barplot(graph, beside = beside, ylab=ylab, main=main, legend.text = legend.text, col=col, ylim=ylim, names.arg=names.arg)
 
   #Standard error bars

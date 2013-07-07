@@ -24,7 +24,7 @@ laterAFCM <- function (data, scannf=FALSE, nf=2, saveDatadisj=FALSE, fileDatadis
   if (saveDataburt == "csv2") {write.csv2(Databurt, file = fileDataburt)} else {}
   
   # Inertia
-  if (scannf == "TRUE") {x11()} else {}
+  if (scannf == "TRUE") {dev.new()} else {}
   acmData <- dudi.acm(Data, scannf=scannf, nf=nf)
   contri <- inertia.dudi(acmData,row.inertia=TRUE,col.inertia=TRUE)
   Contributions<-cbind(contri$col.abs, contri$col.rel,contri$col.cum)

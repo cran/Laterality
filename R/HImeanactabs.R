@@ -21,7 +21,6 @@ HImeanactabs <- function (data, catch="Food", hand="Hand", indiv = "Indiv", Righ
   HImeanPerActabs[which(HImeanPerActabs<0)]<-HImeanPerActabs[which(HImeanPerActabs<0)]*-1 #absolute mean Handedness index
      
   graph<-as.matrix(HImeanPerActabs)
-  x11()
   graphHImean<-barplot(graph, beside = beside, ylab=ylab, main=main, legend.text = legend.text, col=col, ylim=ylim, names.arg=names.arg)
 
   #Standard error bars

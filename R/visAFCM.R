@@ -8,17 +8,15 @@ visAFCM <- function (data, scannf=FALSE, nf=2, xax = 1, yax = 2, clab.row = FALS
   }
     
   # Graphs
-  if (scannf == "TRUE") {x11()} else {}
+  if (scannf == "TRUE") {dev.new()} else {}
   acmData <- dudi.acm(Data, scannf=scannf, nf=nf)
     
   if (graphstyle == "unique") {
-      x11()
       scatter.dudi(acmData, xax = xax, yax = yax, clab.row = clab.row, clab.col = clab.col, permute = permute, posieig = posieig, sub = sub)
   } else {
     }
 
   if (graphstyle == "multiple a") {
-      x11()
       par(mfrow=c(graphrow,graphcol))
       for (v in 1:ncol(Data)) {
         s.class (acmData$li[,c(xax,yax)], fac=Data [,v], col=1:nlevels(Data [,v]),label=levels(Data [,v]),sub=colnames(Data)[v], cpoint=cpoint, clabel=clabel, csub=csub)
@@ -28,7 +26,6 @@ visAFCM <- function (data, scannf=FALSE, nf=2, xax = 1, yax = 2, clab.row = FALS
     }
 
   if (graphstyle == "multiple b") {
-      x11()
       par(mfrow=c(graphrow,graphcol))
       for (v in 1:ncol(Data)) {
         s.chull (acmData$li[,c(xax,yax)], fac=Data [,v], col=1:nlevels(Data [,v]),label=levels(Data [,v]),sub=colnames(Data)[v], optchull=1, cpoint=cpoint, clabel=clabel, csub=csub)
