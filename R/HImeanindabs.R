@@ -8,7 +8,7 @@ HImeanindabs <- function (data, catch="Food", hand="Hand", indiv = "Indiv", Righ
       seldata<- data[data[[catch]]==levels(data[[catch]])[i],]
       Tab<- table(seldata[[indiv]], seldata[[hand]])
       NewTab<-as.data.frame.matrix(Tab)
-      ifelse (is.null(NewTab[[RightHand]]) == TRUE, HITab<-(-NewTab[[LeftHand]])/NewTab[[LeftHand]], ifelse (is.null(NewTab[[LeftHand]]) == TRUE, HITab<-NewTab[[RightHand]]/NewTab[[RightHand]], HITab<-(NewTab[[RightHand]]-NewTab[[LeftHand]])/(NewTab[[RightHand]]+NewTab[[LeftHand]]))) #Calcul du HI (Positif = Droitier ; Négatif = Gaucher)            
+      ifelse (is.null(NewTab[[RightHand]]) == TRUE, HITab<-(-NewTab[[LeftHand]])/NewTab[[LeftHand]], ifelse (is.null(NewTab[[LeftHand]]) == TRUE, HITab<-NewTab[[RightHand]]/NewTab[[RightHand]], HITab<-(NewTab[[RightHand]]-NewTab[[LeftHand]])/(NewTab[[RightHand]]+NewTab[[LeftHand]])))            
       if("HImperIndiv" %in% ls() == FALSE) {HImperIndiv<-c()} else {}
       HImperIndiv<-cbind(HImperIndiv,HITab)
   }

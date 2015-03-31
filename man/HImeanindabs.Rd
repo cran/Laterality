@@ -4,7 +4,7 @@
 \title{HImeanindabs: this function calculates the absolute mean Handedness Index of each individual.}
 
 \description{
-The HImeanindabs function calculate the absolute mean Handedness Index of each individual and plots the corresponding histogram. The results can be saved in a .csv file.
+Calculates the absolute mean Handedness Index of each individual and plots the corresponding histogram. The results can be saved in a .csv file.
 }
 
 \usage{

@@ -4,7 +4,7 @@
 \title{lvisAFCM: this function calculates disjonctive table, blurt table and contributions for AFCM and plots the corresponding graphs.}
 
 \description{
-This function combines "laterAFCM" and "visAFCM" functions. It calculates disjunctive table, Burt table and contributions for MCA and then plots multiple correspondence analysis graphs.
+Combines "laterAFCM" and "visAFCM" functions. It calculates disjunctive table, Burt table and contributions for MCA and then plots multiple correspondence analysis graphs.
 }
 
 \usage{
@@ -130,31 +130,6 @@ If you use this function please cite also ade4-package.
   lvisAFCM(laterdata, xax = 1, yax = 2, clab.row = FALSE, 
   clab.col = 1,permute = FALSE, posieig = "top", sub = NULL, 
   graphstyle = "multiple b", graphrow = 2, graphcol = 3)
-  
-  ## With saving:
-  ## "unique" graph:
-  lvisAFCM(laterdata, saveDatadisj="csv2", fileDatadisj="Datadisj.csv"
-  , saveSumcolDatadisj="csv2", fileSumcolDatadisj="SumcolDatadisj.csv"
-  , saveDataburt="csv2", fileDataburt="Databurt.csv"
-  , saveContributions="csv2", fileContributions="Contributions.csv")
-  
-  ## "multiple a" graph:
-  lvisAFCM(laterdata, xax = 1, yax = 2, clab.row = FALSE, clab.col = 1,
-  permute = FALSE, posieig = "top", sub = NULL, graphstyle = "multiple a",
-  graphrow = 2, graphcol = 3, cpoint=3, saveDatadisj="csv2",
-  fileDatadisj="Datadisj.csv", saveSumcolDatadisj="csv2",
-  fileSumcolDatadisj="SumcolDatadisj.csv", saveDataburt="csv2",
-  fileDataburt="Databurt.csv", saveContributions="csv2",
-  fileContributions="Contributions.csv")
-  
-  ## "multiple b" graph:
-  lvisAFCM(laterdata, xax = 1, yax = 2, clab.row = FALSE, clab.col = 1,
-  permute = FALSE, posieig = "top", sub = NULL, graphstyle = "multiple b",
-  graphrow = 2, graphcol = 3, saveDatadisj="csv2", 
-  fileDatadisj="Datadisj.csv", saveSumcolDatadisj="csv2",
-  fileSumcolDatadisj="SumcolDatadisj.csv", saveDataburt="csv2",
-  fileDataburt="Databurt.csv", saveContributions="csv2",
-  fileContributions="Contributions.csv")
 }
 
 \keyword{correspondence}

@@ -3,7 +3,6 @@ laterAFCM <- function (data, scannf=FALSE, nf=2, saveDatadisj=FALSE, fileDatadis
                        , saveDataburt=FALSE, fileDataburt="Databurt.csv"
                        , saveContributions=FALSE, fileContributions="Contributions.csv")
 {
-  library(ade4)
   Data<-as.data.frame.matrix(data)
   for (i in 1:ncol(Data)) {
       Data[[i]]<-as.factor(Data[[i]])

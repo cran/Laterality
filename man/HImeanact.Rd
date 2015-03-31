@@ -4,7 +4,7 @@
 \title{HImeanact: this function calculates the mean Handedness Index for each activity.}
 
 \description{
-The HImeanact function calculate the mean Handedness Index for each task performed and plots the corresponding histogram. The results can be saved in a .csv file.
+Calculates the mean Handedness Index for each task performed and plots the corresponding histogram. The results can be saved in a .csv file.
 }
 
 \usage{

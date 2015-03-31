@@ -4,7 +4,7 @@
 \title{later: this function calculates handedness index (HI) and z-score.}
 
 \description{
-The later function return an array with x dimensions corresponding to each activities performed. For each individual it will return the total of left and right hand grasp (and eventually other data like "bimanual" for example). The HI and the z-score is also returned for each individual with the corresponding p-value and each individual is classified as right handed (R), left handed (L) or ambiguous (A). These results can be saved directly in a .csv file (see "savetable" below).
+Returns an array with x dimensions corresponding to each activities performed. For each individual it will return the total of left and right hand grasp (and eventually other data like "bimanual" for example). The HI and the z-score is also returned for each individual with the corresponding p-value and each individual is classified as right handed (R), left handed (L) or ambiguous (A). These results can be saved directly in a .csv file (see "savetable" below).
 }
 
 \usage{

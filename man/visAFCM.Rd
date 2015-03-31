@@ -4,7 +4,7 @@
 \title{visAFCM: this function plots multiple correspondence analysis graphs based on ade4 package functions.}
 
 \description{
-This function plots multiple correspondence analysis graphs. The graphs can be unique or multiple which is sometimes necessary for better lisibility.
+Plots multiple correspondence analysis graphs. The graphs can be unique or multiple which is sometimes necessary for better lisibility.
 }
 
 \usage{

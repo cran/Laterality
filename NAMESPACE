@@ -10,4 +10,11 @@ export ("HImeanact",
 "lvisAFCM",
 "visAFCM")
 
-import(ade4)
+importFrom(ade4, 
+           "acm.disjonctif", 
+           "acm.burt", 
+           "dudi.acm", 
+           "inertia.dudi",
+           "s.class",
+           "s.chull",
+           "scatter")

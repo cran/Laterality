@@ -1,7 +1,6 @@
 visAFCM <- function (data, scannf=FALSE, nf=2, xax = 1, yax = 2, clab.row = FALSE, clab.col = 1,permute = FALSE
                      , posieig = "top", sub = NULL, graphstyle = "unique", graphrow = 1, graphcol = 3, cpoint=1, clabel=2, csub=2)
 {
-  library(ade4)
   Data<-as.data.frame.matrix(data)
   for (i in 1:ncol(Data)) {
       Data[[i]]<-as.factor(Data[[i]])
@@ -12,7 +11,9 @@ visAFCM <- function (data, scannf=FALSE, nf=2, xax = 1, yax = 2, clab.row = FALS
   acmData <- dudi.acm(Data, scannf=scannf, nf=nf)
     
   if (graphstyle == "unique") {
-      scatter.dudi(acmData, xax = xax, yax = yax, clab.row = clab.row, clab.col = clab.col, permute = permute, posieig = posieig, sub = sub)
+    acmDatatmp <- acmData
+    class(acmDatatmp) <- "dudi"
+    scatter(acmDatatmp, xax = xax, yax = yax, clab.row = clab.row, clab.col = clab.col, permute = permute, posieig = posieig, sub = sub)
   } else {
     }
 

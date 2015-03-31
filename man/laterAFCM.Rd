@@ -4,7 +4,7 @@
 \title{laterAFCM: this function calculates disjunctive table, Burt table and contributions for multiple correspondence analysis (MCA).}
 
 \description{
-This function calculates disjunctive table, Burt table and contributions for MCA.}
+Calculates disjunctive table, Burt table and contributions for MCA.}
 
 \usage{
   laterAFCM(data, scannf=FALSE, nf=2, saveDatadisj = FALSE, fileDatadisj = "Datadisj.csv",
@@ -71,17 +71,10 @@ If you use this function please cite also ade4-package.
 }
 
 \examples{
-  library(ade4)
   data(laterdata)
   
   ## Without saving:
   laterAFCM(laterdata)
-  
-  ## With saving:
-  laterAFCM(laterdata, saveDatadisj="csv2", fileDatadisj="Datadisj.csv"
-  , saveSumcolDatadisj="csv2", fileSumcolDatadisj="SumcolDatadisj.csv"
-  , saveDataburt="csv2", fileDataburt="Databurt.csv"
-  , saveContributions="csv2", fileContributions="Contributions.csv")
 }
 
 \keyword{correspondence}

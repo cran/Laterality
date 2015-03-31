@@ -5,19 +5,19 @@
 \title{Laterality}
 
 \description{
-This package permits to calculate handedness index (HI) and z-score for each individual for each task performed. It plots histograms of the different type of grasp (Left, right, bimanual...) for each kind of activity but also of the Handedness Index of each individual for each activity. The mean Handedness Index and the absolute HI and absolute mean HI can also be calculated. Finally some functions (based on ade4-package functions) calculates disjunctive table, Burt table and contributions for MCA and then plots multiple correspondence analysis graphs.
+Calculates handedness index (HI) and z-score for each individual and each task performed. It plots barplots of the different type of grasp (Left, right, bimanual...) for each kind of activity. It plots also the Handedness Index of each individual for each activity. The mean Handedness Index and the absolute HI and absolute mean HI can be calculated. Finally some functions (based on ade4-package functions) calculates disjunctive table, Burt table and contributions for MCA and then plots multiple correspondence analysis graphs.
 }
 
 \details{
 \tabular{ll}{
 Package: \tab Laterality\cr
 Type: \tab Package\cr
-Version: \tab 0.9.1\cr
-Date: \tab 2012-12-05\cr
+Version: \tab 0.9.3\cr
+Date: \tab 2015-03-31\cr
 License: \tab GPL (>=2.0)\cr
-LazyLoad: \tab yes\cr
+LazyData: \tab yes\cr
 }
-This package is particularly useful to calculate and plot the different indexes (HI, z-score, mean HI, absolute HI) commonly used in laterality studies of non-human primates.
+This package is particularly useful to calculate and plot the different indexes (HI, z-score, mean HI, absolute HI) commonly used in hand preference studies of non-human primates.
 }
 
 \author{Borel A., Pouydebat E., Reghem E. <antony.borel@gmail.com>}

@@ -3,7 +3,6 @@ lvisAFCM <- function (data, scannf=FALSE, nf=2, xax = 1, yax = 2, clab.row = FAL
                       , saveDatadisj=FALSE, fileDatadisj="Datadisj.csv", saveSumcolDatadisj=FALSE, fileSumcolDatadisj="SumcolDatadisj.csv"
                       , saveDataburt=FALSE, fileDataburt="Databurt.csv", saveContributions=FALSE, fileContributions="Contributions.csv")
 {
-  library(ade4)
   Data<-as.data.frame.matrix(data)
   for (i in 1:ncol(Data)) {
       Data[[i]]<-as.factor(Data[[i]])
@@ -28,7 +27,9 @@ lvisAFCM <- function (data, scannf=FALSE, nf=2, xax = 1, yax = 2, clab.row = FAL
   acmData <- dudi.acm(Data, scannf=scannf, nf=nf)
     
   if (graphstyle == "unique") {
-      scatter.dudi(acmData, xax = xax, yax = yax, clab.row = clab.row, clab.col = clab.col, permute = permute, posieig = posieig, sub = sub)
+    acmDatatmp <- acmData
+    class(acmDatatmp) <- "dudi"
+    scatter(acmDatatmp, xax = xax, yax = yax, clab.row = clab.row, clab.col = clab.col, permute = permute, posieig = posieig, sub = sub)
   } else {
     }
 

@@ -4,7 +4,7 @@
 \title{HImeanind: this function calculates the mean Handedness Index of each individual.}
 
 \description{
-The HImeanind function calculate the mean Handedness Index of each individual and plots the corresponding histogram. The results can be saved in a .csv file.
+Calculates the mean Handedness Index of each individual and plots the corresponding histogram. The results can be saved in a .csv file.
 }
 
 \usage{

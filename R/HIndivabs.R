@@ -20,7 +20,7 @@ HIndivabs <- function (data, catch="Food", hand="Hand", indiv="Indiv", RightHand
   graph<-as.matrix(HIabsperIndiv)
   barplot(graph, beside = beside, ylab=ylab, main=main, cex.main=cex.main, legend.text = legend.text, col=col, ylim=ylim)
 
-  # Vertical ligns plot
+  # Vertical lines plot
   if (nlevels(data[[indiv]])>1) {
       if (vlines == TRUE) {
         abline(v=(seq(nlevels(data[[catch]])+1.5,nlevels(data[[indiv]])*(nlevels(data[[catch]])+1),by=nlevels(data[[catch]])+1)), lty=3)
@@ -29,7 +29,7 @@ HIndivabs <- function (data, catch="Food", hand="Hand", indiv="Indiv", RightHand
   } else {
     }
   
-  # Horizontal ligns plot
+  # Horizontal lines plot
   if (hlines == TRUE) {
       ya<-rep(0,nlevels(data[[indiv]]))
       yb<-rep(0,nlevels(data[[indiv]]))

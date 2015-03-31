@@ -4,7 +4,7 @@
 \title{HIndivabs: this function calculates the absolute Handedness Index of each individual for each activity and plots the corresponding histogram.}
 
 \description{
-The HIndivabs function calculate the absolute Handedness Index of each individual regarding to each task performed and plots the corresponding histogram for each individual. The results can be saved in a .csv file.
+Calculates the absolute Handedness Index of each individual regarding to each task performed and plots the corresponding histogram for each individual. The results can be saved in a .csv file.
 }
 
 \usage{

@@ -4,7 +4,7 @@
 \title{laterhist: this function plots an histogram of the different type of grasp (Left, right, bimanual...) for each kind of activity.}
 
 \description{
-The laterhist function counts the nuber of occurences of each type of grasp and plot the corresponding histogram for each task performed.
+Counts the number of occurences of each type of grasp and plot the corresponding histogram for each task performed.
 }
 
 \usage{

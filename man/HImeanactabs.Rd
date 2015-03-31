@@ -4,7 +4,7 @@
 \title{HImeanactabs: this function calculates the absolute mean Handedness Index for each activity.}
 
 \description{
-The HImeanactabs function calculate the absolute mean Handedness Index for each task performed and plots the corresponding histogram. The results can be saved in a .csv file.
+Calculates the absolute mean Handedness Index for each task performed and plots the corresponding histogram. The results can be saved in a .csv file.
 }
 
 \usage{
