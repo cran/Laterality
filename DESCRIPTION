@@ -1,6 +1,6 @@
 Package: Laterality
-Version: 0.9.3
-Date: 2015-03-31
+Version: 0.9.4
+Date: 2022-06-06
 Title: Functions to Calculate Common Laterality Statistics in
         Primatology
 Author: Borel A., Pouydebat E., Reghem E.
@@ -9,7 +9,7 @@ Description: Calculates and plots Handedness index (HI), absolute HI, mean HI an
 License: GPL (>= 2.0)
 LazyData: yes
 Imports: ade4
-Packaged: 2015-03-31 21:12:55 UTC; Antony
 NeedsCompilation: no
+Packaged: 2022-06-06 16:43:15 UTC; Antony
 Repository: CRAN
-Date/Publication: 2015-04-01 07:48:19
+Date/Publication: 2022-06-07 04:00:02 UTC

@@ -10,11 +10,9 @@ export ("HImeanact",
 "lvisAFCM",
 "visAFCM")
 
-importFrom(ade4, 
-           "acm.disjonctif", 
-           "acm.burt", 
-           "dudi.acm", 
-           "inertia.dudi",
-           "s.class",
-           "s.chull",
-           "scatter")
+importFrom("ade4", "acm.disjonctif", "acm.burt", "dudi.acm", "inertia.dudi", "s.class", "s.chull", "scatter")
+importFrom("grDevices", "dev.new")
+importFrom("graphics", "abline", "arrows", "barplot", "legend",
+               "lines", "locator", "par")
+importFrom("stats", "pnorm", "sd")
+importFrom("utils", "write.csv", "write.csv2")
