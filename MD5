@@ -1,4 +1,4 @@
-158ab6f95f46b14021a70a46fbb3127d *DESCRIPTION
+b39f0a7817dfa02e68ca7c98114f649e *DESCRIPTION
 2296289cf681a3b1bb6e0c6998c9e8d5 *NAMESPACE
 6cec79bc75c4b6d3e14cda9d2e8b2257 *R/HImeanact.R
 242854bf9e3b7ea4591100a3be6160fc *R/HImeanactabs.R
@@ -19,7 +19,7 @@ b682554187fd26298576f2a92a987e43 *data/laterdata.rda
 29159bc11da9bd4a262d6b027b0f862f *man/HImeanindabs.Rd
 04b77efaba2b8f22bb97cb7918063367 *man/HIndiv.Rd
 0d1ba69e55e593db78ea25548a1b013d *man/HIndivabs.Rd
-1d7fa9ae3212c19137e4d5d133a73d50 *man/Laterality-package.Rd
+f63553105d0ca3988564269142c808cb *man/Laterality-package.Rd
 10bd51874e7a8200417c22a7d5d9336f *man/later.Rd
 2b19e7b85160d2ad625dc0ee2ef47d50 *man/laterAFCM.Rd
 1d091dc8386cec7b172dc0578b4cfec4 *man/lateradata.Rd

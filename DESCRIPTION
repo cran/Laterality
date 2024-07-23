@@ -1,6 +1,6 @@
 Package: Laterality
-Version: 0.9.4
-Date: 2022-06-06
+Version: 0.9.5
+Date: 2024-07-23
 Title: Functions to Calculate Common Laterality Statistics in
         Primatology
 Author: Borel A., Pouydebat E., Reghem E.
@@ -10,6 +10,6 @@ License: GPL (>= 2.0)
 LazyData: yes
 Imports: ade4
 NeedsCompilation: no
-Packaged: 2022-06-06 16:43:15 UTC; Antony
+Packaged: 2024-07-23 15:36:59 UTC; Antony
 Repository: CRAN
-Date/Publication: 2022-06-07 04:00:02 UTC
+Date/Publication: 2024-07-23 16:50:01 UTC

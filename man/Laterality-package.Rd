@@ -9,14 +9,6 @@ Calculates handedness index (HI) and z-score for each individual and each task p
 }
 
 \details{
-\tabular{ll}{
-Package: \tab Laterality\cr
-Type: \tab Package\cr
-Version: \tab 0.9.3\cr
-Date: \tab 2015-03-31\cr
-License: \tab GPL (>=2.0)\cr
-LazyData: \tab yes\cr
-}
 This package is particularly useful to calculate and plot the different indexes (HI, z-score, mean HI, absolute HI) commonly used in hand preference studies of non-human primates.
 }
 
